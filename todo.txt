@@ -1,0 +1,5 @@
+Work out how to control volume
+Configure vim
+Set background
+Checkout dzen2 with systray, maybe conky?
+Add bottomstack?

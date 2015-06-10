@@ -1,0 +1,58 @@
+xterm*selectToClipBoard: true
+xterm*trimSelection: true
+
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.hintstyle: hintful
+Xft.rgba : rgb
+
+URxvt.scrollBar: false
+URxvt.scrollTtyOutput:   false
+URxvt.scrollTtyKeypress: true
+
+URxvt*background: grey20
+URxvt*foreground: grey90
+URxvt*depth: 32
+Urxvt.termName: rxvt-256color
+
+URxvt*fading: 20
+
+
+! URxvt*font: xft:DejaVuSansMono:medium:size=10:antialias=false
+URxvt*font: xft:DejaVuSansMonoForPowerline:medium:size=10:antialias=false:pixelsize=22
+! URxvt*font: xft:DejaVuSansMono:medium:antialias=false:pixelsize=24
+URxvt*internalBorder: 0
+URxvt*borderWidth: 0
+
+!URxvt.copyCommand: /usr/local/bin/xclip -i -selection clipboard
+!URxvt.pasteCommand: /usr/local/bin/xclip -o -selection clipboard
+! URxvt.perl-lib: /usr/lib/urxvt/perl/
+URxvt.iso14755: False
+! URxvt.clipboad.autocopy: true
+!URxvt.perl-ext-common: default,clipboard-osc
+! ,clippy
+!URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+!URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+! URxvt.keysym.Mod4-v: perl:clipboard:paste
+!URxvt*keysym.M-c: perl:clipboard-osc:copy
+!URxvt*keysym.M-v: perl:clipboard-osc:paste
+! URxvt.keysym.Mod4-v: perl:macosx-clipboard:paste
+! URxvt.clipboard.copycmd: xsel -ib
+! URxvt.clipboard.pastecmd: xsel -ob
+
+URxvt.color0:           #3f3f3f
+URxvt.color1:           #705050
+URxvt.color2:           #00b45a
+URxvt.color3:           #dfcf8f
+URxvt.color4:           #506070
+URxvt.color5:           #dc8cc3
+URxvt.color6:           #8cd0d3
+URxvt.color7:           #dcdccc
+URxvt.color8:           #709080
+URxvt.color9:           #cc5454
+URxvt.color10:          #4d9f4d
+URxvt.color11:          #f0dfaf
+URxvt.color12:          #4186be
+URxvt.color13:          #ec93d3
+URxvt.color14:          #93e0e3
+URxvt.color15:          #ffffff

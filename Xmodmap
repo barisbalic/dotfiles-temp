@@ -1,0 +1,14 @@
+! clean modifiers
+clear control
+clear mod4
+clear mod1
+clear lock
+
+keycode 64 = Super_L
+keycode 133 = Alt_L Meta_L
+
+add mod4 = Super_L
+add mod1 = Alt_L Meta_L
+add mod1 = Alt_R Meta_R
+add control = Control_L
+add control = Control_R

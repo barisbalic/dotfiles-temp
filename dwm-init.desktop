@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=dwm2
+Comment=DWM2 FTW
+Exec=/home/baris/.dwm-init
+Type=Application
